@@ -86,7 +86,7 @@ class TagBuilder {
 	 *
 	 * @return self
 	 */
-	public function describe( string $description ): self {
+	public function description( string $description ): self {
 		$this->description = $description;
 
 		return $this;
