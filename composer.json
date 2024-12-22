@@ -1,0 +1,38 @@
+{
+  "name": "arraypress/edd-register-email-tags",
+  "description": "A streamlined library for managing and registering custom email tags in Easy Digital Downloads (EDD), making email template customization more intuitive and maintainable.",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/arraypress/edd-email-tags/",
+  "authors": [
+    {
+      "name": "David Sherlock",
+      "homepage": "https://arraypress.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArrayPress\\EDD\\Register\\": "src/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "support": {
+    "issues": "https://github.com/arraypress/edd-email-tags/issues",
+    "source": "https://github.com/arraypress/edd-email-tags"
+  },
+  "keywords": [
+    "easy-digital-downloads",
+    "edd",
+    "email-tags",
+    "email-templates",
+    "wordpress"
+  ]
+}
